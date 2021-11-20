@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{00AF7515-D85F-46E0-B7FE-579F8B4DD03B}" SchemaVersion="94">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{00AF7515-D85F-46E0-B7FE-579F8B4DD03B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{00AF7515-D85F-46E0-B7FE-579F8B4DD03B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="DSGNMisc_DRY PROCESSED-Cellophane Movements Squeaky Constant_B00M_MOCK" ID="{4849A422-F6B9-4CB6-8745-BC72623967E8}" ShortID="418851140">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D83B4D2-5D09-49DB-BEBA-55C55E148C9C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50E81E04-3A71-42B7-B289-517939A52930}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DSGNMisc_DRY PROCESSED-Cellophane Movements Squeaky Constant_B00M_MOCK" ID="{0B6CE411-D81D-4439-9C72-6C79EC1B676A}" ShortID="398923816">
+							<Language>SFX</Language>
+							<AudioFile>DSGNMisc_DRY PROCESSED-Cellophane Movements Squeaky Constant_B00M_MOCK.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DSGNMisc_DRY PROCESSED-Cellophane Movements Squeaky Constant_B00M_MOCK" ID="{0B6CE411-D81D-4439-9C72-6C79EC1B676A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
