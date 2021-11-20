@@ -1,0 +1,10 @@
+*.cache
+.cache/
+GeneratedSoundBanks
+.DS_Store
+*.prof
+*.akd
+*.asd
+*.validationcache
+*.crossover.wsettings
+.backup
